@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* 定义全局变量 */
+:root {
+  --sys-font-size: 10px;
+  --sys-line-height: 1.6;
+  --sys-button-color: coral;
+}
+
+html {
+  font-size: var(--sys-font-size);
+  line-height: var(--sys-line-height);
+}
+
+header {
+  --header-font-size: 2rem;
+}
+
+header button {
+  font-size: var(--header-font-size);
+  padding: 1rem 2rem;
+  margin: 0.5rem;
+  border: 1px solid var(--sys-button-color);
+  background-color: var(--sys-button-color);
+  color: #ffffff;
+  cursor: pointer;
+  border-radius: 0.4rem;
+}
+
+button:hover {
+  color: #333333;
+  background-color: #fff;
+}
+
+.model {
+  --model-title-font-size: 1.6rem;
+  --model-content-font-size: 1.8rem;
+}
+
+.model {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  box-sizing: border-box;
+  z-index: 100;
+  background-color: #000000;
+  opacity: 0.6;
+  display: none;
+}
+
+.dialog {
+  width: 350px;
+  background-color: #f4f4f4;
+  margin: 200px auto;
+}
+
+.dialog-title {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 1rem;
+  background-color: var(--sys-button-color);
+}
+.model .dialog-title {
+  font-size: var(--model-title-font-size);
+}
+
+.dialog-content {
+  height: 150px;
+  box-sizing: border-box;
+  overflow: auto;
+  padding: 3rem 1rem;
+}
+
+.dialog-footer button {
+  background-color: var(--sys-button-color);
+  width: 100%;
+  border: none;
+  padding: 1rem 0;
+  font-size: 1.8rem;
+  color: #f4f4f4;
+  cursor: pointer;
+}
+
+.dialog-close {
+  color: #f4f4f4;
+  cursor: pointer;
+}

@@ -1,0 +1,28 @@
+{
+    "name": "citys",
+    "list": [{
+            "name": "sh",
+            "list": [{
+                    "name": "pd",
+                    "list": ["cl", "cs"]
+                },
+                {
+                    "name": "mh",
+                    "list": ["bq", "nq"]
+                }
+            ]
+        },
+        {
+            "name": "pk",
+            "list": [{
+                    "name": "cy",
+                    "list": ["cy1", "cy2"]
+                },
+                {
+                    "name": "xj",
+                    "list": ["xj1", "xj2"]
+                }
+            ]
+        }
+    ]
+}

@@ -89,7 +89,7 @@ export function factorial(n) {
 
 
 // 递归 斐波那契数列  
- 
+
 export function F(n) {
 
     // 出口 
@@ -101,3 +101,12 @@ export function F(n) {
     return F(n - 1) + F(n - 2);
 }
 
+/**
+ * 立即执行函数
+ */
+
+export const app = {
+    uid: function () {
+        return 'c00000'
+    }(),
+}

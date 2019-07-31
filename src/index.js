@@ -3,6 +3,9 @@ import {
     sum,
     toTraditional,
     factorial,
-    F
+    F,
+    app
 } from './function/index.js'
+
+
 
